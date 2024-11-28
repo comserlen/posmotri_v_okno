@@ -137,7 +137,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -158,7 +158,7 @@ ol {
 }
 
 .content__card-link {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
@@ -264,7 +264,7 @@ ol {
   height: 34px;  
   width: 194px;
   background-color: #1B1919;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   color: white;
   font-size: 18px;
   font-weight: 700;
