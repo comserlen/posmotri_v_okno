@@ -261,8 +261,8 @@ ol {
 
 .button {
   border: 1px solid white;
+  height: 34px;  
   width: 194px;
-  height: 34px;
   background-color: #1B1919;
   font-family: Fira Sans Condensed;
   color: white;
