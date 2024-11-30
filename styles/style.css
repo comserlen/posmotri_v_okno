@@ -205,7 +205,7 @@ ol {
   display: flex;
   align-items: center;
   cursor: pointer;
-  gap: 3px;
+  gap: 5px;
 }
 
 .search-form__label:has(.search-form__pseudo-checkbox) {
@@ -240,7 +240,7 @@ ol {
 }
 
 .search-form__textfield:focus {
-  border: none;
+  outline: none;
 }
 
 .search-form__textfield:has(:focus-visible) {
@@ -252,7 +252,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 210px;
+  width: 214px;
   height: 20px;
 }
 
@@ -267,10 +267,11 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
   content: "";
-  width: 17px;
+  width: 18px;
   height: 17px;
   background-color: currentColor;
-  margin: auto;
+  margin-right: 1px;
+  margin-left: 1px;
   outline: 1px solid currentColor;
   outline-offset: 1px;
 }
